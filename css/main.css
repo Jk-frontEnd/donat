@@ -202,4 +202,20 @@ body {
 
 .privat {
   margin-bottom: auto;
+}
+
+.inDev {
+  margin-top: 20px;
+}
+
+.inDev__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.inDev__p {
+  font-size: 16px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
