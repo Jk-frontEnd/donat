@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Articulated Axolotl",
+        "path": "https://makerworld.bblmw.com/makerworld/model/USf280dbc5c2355b/design/2024-02-22_017387205a95c.jpeg?image_process=resize,w_1000/format,webp",
+        "displayedName": "Аксолотль",
+        "desc": "",
+        "range": "500"
+    },
+    {
+        "id": 2,
+        "name": "Articulated Lizard",
+        "path": "https://makerworld.bblmw.com/makerworld/model/US29595080fd9d5b/design/2024-04-27_e7d4ec9312e92.jpg?image_process=resize,w_1000/format,webp",
+        "displayedName": "Ящірочка",
+        "desc": "",
+        "range": "500"
+    },
+    {
+        "id": 3,
+        "name": "'May the force be with you' coaster",
+        "path": "https://makerworld.bblmw.com/makerworld/model/USa53d6cbf6baa99/design/2024-01-13_2aeee731fe5ce.png?image_process=resize,w_1000/format,webp",
+        "displayedName": "Підсклянник Зоряні війни",
+        "desc": "",
+        "range": "500"
+    }
+]

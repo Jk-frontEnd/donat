@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header">
+            <button class="menu__toggle">
+                <svg class="menu-icon" width="24px" height="24px">
+                    <use href="./img/svg/sprite.svg#menu"></use>
+                </svg>
+            </button>
+            <svg class="logo" width="24px" height="40px">
+                <use href="./img/svg/sprite.svg#logo"></use>
+            </svg>  
+        </div>
+    </header>
+    <div class="menu">
+        <button class="menu__close">
+            <svg class="close-svg" width="24px" height="24px">
+                <use href="./img/svg/sprite.svg#close"></use>
+            </svg>
+        </button>
+        <ul><svg class="logo" width="24px" height="40px">
+            <use href="./img/svg/sprite.svg#logo"></use>
+        </svg>
+            <li><a href="./pages/inDevelopment.html" class="menu__link">Про нас</a></li>
+            <li><a href="./pages/inDevelopment.html" class="menu__link">Звіт</a></li>
+            <li><a href="./pages/index.html" class="menu__link">Задонатити</a></li>
+            <li><a href="./pages/goods.html" class="menu__link">Плюшки</a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__imgBox"><img src="./img/png/hero.png" alt=""></div>
+                <div class="hero__thanking">
+                    <p>Дякуємо за донат! <br> Оберіть собі плюшечку</p>
+                    <div class="filterDropdown">
+                        <select id="filterSelect">
+                            <option value="">Усі</option>
+                            <option value="200">200</option>
+                            <option value="500">500</option>
+                            <option value="1000">1000</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="list">
+            <div class="container">
+                <ul class="cardList">
+                    <li class="card">
+                        <div class="card__imgBox">
+                            <img class="card__img" src="https://makerworld.bblmw.com/makerworld/model/USf280dbc5c2355b/design/2024-02-22_017387205a95c.jpeg?image_process=resize,w_1000/format,webp" alt="Аксолотль">
+                        </div>
+                        <div class="card__flex">
+                            <p class="card__name">Аксолотль</p>
+                            <p class="range">500</p>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="card__imgBox">
+                            <img class="card__img" src="https://makerworld.bblmw.com/makerworld/model/US29595080fd9d5b/design/2024-04-27_e7d4ec9312e92.jpg?image_process=resize,w_1000/format,webp" alt="Ящірочка">
+                        </div>
+                        <div class="card__flex">
+                            <p class="card__name">Ящірочка</p>
+                            <p class="range">1000</p>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="card__imgBox">
+                            <img class="card__img" src="https://makerworld.bblmw.com/makerworld/model/US7275b0b14b2b1b/design/2023-08-16_b0qekzgmoxkm.jpg?image_process=resize,w_1000/format,webp" alt="Восьминіг">
+                        </div>
+                        <div class="card__flex">
+                            <p class="card__name">Восьминіжка</p>
+                            <p class="range">200</p>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="card__imgBox">
+                            <img class="card__img" src="https://makerworld.bblmw.com/makerworld/model/USa53d6cbf6baa99/design/2024-01-13_2aeee731fe5ce.png?image_process=resize,w_1000/format,webp" alt="Підсклянник Зоряні війни">
+                        </div>
+                        <div class="card__flex">
+                            <p class="card__name">Підсклянник Зоряні війни</p>
+                            <p class="range">500</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>

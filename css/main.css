@@ -1,0 +1,205 @@
+:root {
+  --bg: #fcfcfcff;
+  --font: #1E1E1E;
+  --accent-blue: #2b2941ff;
+  --grey: #D9D9D9;
+  --brown: #643b39ff;
+  --dark-orange: #9e4d32ff;
+  --orange: #d8602bff;
+}
+
+section, div, li, ul, h1, h2, h3, p, img {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0;
+  padding: 0px 16px;
+}
+
+.cardList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  padding: 6px;
+  font-size: 14px;
+  color: var(--accent-blue);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.46);
+}
+
+.card__imgBox {
+  width: 119px;
+  height: 84px;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--bg);
+}
+
+.card__img {
+  background-color: var(--grey);
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card__name {
+  width: 119px;
+}
+
+.filterDropdown {
+  margin-left: auto;
+}
+
+.filterDropdown select {
+  width: 70px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.hero__thanking {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.header {
+  display: flex;
+  margin: 10px 0;
+}
+
+.logo {
+  display: flex;
+  margin: auto;
+  padding: 0;
+}
+
+.menu__toogle {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.menu__toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -220px;
+  width: 220px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.menu.open {
+  left: 0;
+}
+
+.menu__close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__link {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu__link:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-icon, .close-svg {
+  width: 24px;
+  height: 24px;
+}
+
+.header .logo {
+  margin-left: auto;
+}
+
+.hero__p {
+  margin: 25px 0 30px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  width: 278px;
+}
+
+.hero__imgBox {
+  display: flex;
+  justify-content: center;
+}
+
+.options__div {
+  display: flex;
+  gap: 20px;
+}
+
+.options__card {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+  height: 180px;
+  border: black 1px solid;
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+}
+
+.options__name {
+  font-size: 14px;
+  color: var(--font);
+  text-decoration: none;
+}
+
+.privat {
+  margin-bottom: auto;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+.options__div {
+    display: flex; 
+    gap: 20px;
+}
+
+.options__card {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 180px;
+    border: black 1px solid;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+}
+
+.options__name {
+    font-size: 14px;
+    color: var(--font);
+    text-decoration: none;
+}
+
+.privat {
+    margin-bottom: auto;
+}
